@@ -1,1 +1,2 @@
-# machine-learning
+# Machine Learning
+Machine learning is a branch of artificial intelligence concerned with the development & application of adaptive algorithms that use example data or previous experience to solve a given problem. Topics include: learning problems (e.g regression, classification, unsupervised, reinforcement) & theory, neural networks, statistical & probabilistic models, clustering, ensembles, implementation issues, applications (e.g. bioinformatics, cognitive science, forecasting, robotics, signal & image processing).
