@@ -14,7 +14,6 @@ bandwidth = .75;
 clustMed = [];
 %clustCent;
 
-
 x = var*randn(2,nPtsPerClust*nClust);
 %*** build the point set
 for i = 1:nClust
@@ -26,7 +25,6 @@ tic
 toc
 
 numClust = length(clustMembsCell);
-
 
 figure(10),clf,hold on
 cVec = 'bgrcmykbgrcmykbgrcmykbgrcmyk';%, cVec = [cVec cVec];
