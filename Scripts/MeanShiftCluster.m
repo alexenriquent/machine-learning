@@ -15,7 +15,6 @@ function [clustCent,data2cluster,cluster2dataCell] = MeanShiftCluster(dataPts,ba
 % K. Funkunaga and L.D. Hosteler, "The Estimation of the Gradient of a
 % Density Function, with Applications in Pattern Recognition"
 
-
 %*** Check input ****
 if nargin < 2
     error('no bandwidth specified')
@@ -120,5 +119,3 @@ if nargout > 2
         cluster2dataCell{cN} = myMembers;
     end
 end
-
-
