@@ -27,7 +27,7 @@ toc
 numClust = length(clustMembsCell);
 
 figure(10),clf,hold on
-cVec = 'bgrcmykbgrcmykbgrcmykbgrcmyk';%, cVec = [cVec cVec];
+cVec = 'bgrcmykbgrcmykbgrcmykbgrcmyk';
 for k = 1:min(numClust,length(cVec))
     myMembers = clustMembsCell{k};9
     myClustCen = clustCent(:,k);
