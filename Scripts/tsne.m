@@ -1,5 +1,5 @@
 function ydata = tsne(X, labels, no_dims, initial_dims, perplexity)
-%TSNE Performs symmetric t-SNE on dataset X
+% TSNE Performs symmetric t-SNE on dataset X
 %
 %   mappedX = tsne(X, labels, no_dims, initial_dims, perplexity)
 %   mappedX = tsne(X, labels, initial_solution, perplexity)
