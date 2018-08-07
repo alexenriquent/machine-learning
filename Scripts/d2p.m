@@ -14,7 +14,6 @@ function [P, beta] = d2p(D, u, tol)
 %
 % (C) Laurens van der Maaten, 2008
 % Maastricht University
-
     
     if ~exist('u', 'var') || isempty(u)
         u = 15;
@@ -78,8 +77,6 @@ function [P, beta] = d2p(D, u, tol)
     disp(['Minimum value of sigma: ' num2str(min(sqrt(1 ./ beta)))]);
     disp(['Maximum value of sigma: ' num2str(max(sqrt(1 ./ beta)))]);
 end
-    
-
 
 % Function that computes the Gaussian kernel values given a vector of
 % squared Euclidean distances, and the precision of the Gaussian kernel.
@@ -91,4 +88,3 @@ function [H, P] = Hbeta(D, beta)
     % why not: H = exp(-sum(P(P > 1e-5) .* log(P(P > 1e-5)))); ???
     P = P / sumP;
 end
-
