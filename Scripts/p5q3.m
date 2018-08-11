@@ -45,4 +45,3 @@ function data = p5q3()
 %     xlabel('First eigenvector')
 %     ylabel('Second eigenvector')
 end
-
