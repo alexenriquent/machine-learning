@@ -41,4 +41,3 @@ function output = p5q2()
     xlabel('First eigenvector')
     ylabel('Second eigenvector')
 end
-
