@@ -47,4 +47,3 @@ view(net)
 %figure, ploterrhist(e)
 %figure, plotconfusion(t,y)
 %figure, plotroc(t,y)
-
