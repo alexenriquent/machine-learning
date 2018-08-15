@@ -24,8 +24,3 @@ title 'Prior and Posterior Distributions'
 legend('Prior','Posterior','Data point')
 xlabel('x')
 ylabel('y')
-
-
-
-
-
