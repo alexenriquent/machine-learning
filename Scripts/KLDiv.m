@@ -7,8 +7,6 @@ function dist=KLDiv(P,Q)
 % Q =  1 x nbins or n x nbins(one to one)
 % dist = n x 1
 
-
-
 if size(P,2)~=size(Q,2)
     error('the number of columns in P and Q should be the same');
 end
@@ -24,7 +22,6 @@ if size(Q,1)==1
     temp =  P.*log(P./repmat(Q,[size(P,1) 1]));
     temp(isnan(temp))=0;% resolving the case when P(i)==0
     dist = sum(temp,2);
-    
     
 elseif size(Q,1)==size(P,1)
     
