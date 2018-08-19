@@ -12,4 +12,3 @@ function output = p2q2(housing)
     plot(fit(input,target,fittype('poly4')))
     plot(fit(input,target,fittype('poly5')))
 end
-
