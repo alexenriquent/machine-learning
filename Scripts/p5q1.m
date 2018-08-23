@@ -11,4 +11,3 @@ function data = p5q1(X,dim)
 %     reducedDimension = coeff(:,1:dim);
 %     reducedData = X * reducedDimension;
 end
-
