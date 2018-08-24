@@ -21,4 +21,3 @@ function output = p2q1()
     plot(fit(xData,yData,fittype('poly9')))
     title('Data and fitted polynomials')
 end
-
