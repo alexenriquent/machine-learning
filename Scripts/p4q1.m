@@ -20,3 +20,4 @@ function output = p4q1(input)
     xlabel('Weight')
     ylabel('Height')
 end
+
