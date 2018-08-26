@@ -79,4 +79,3 @@ function output = p2q1_2()
     ylabel('SSE')
     legend('Training', 'Validation')
 end
-
