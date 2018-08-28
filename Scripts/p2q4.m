@@ -12,4 +12,3 @@ function output = p2q4_0(input)
     posterior_1 = pdf_1./(pdf_0+pdf_1);
     output = posterior_1 > 0.5;
 end
-
