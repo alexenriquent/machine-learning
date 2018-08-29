@@ -11,3 +11,4 @@ function output = likelihoods(input)
     ylabel('p(x|Ci)')
     legend('C1', 'C2')
 end
+
