@@ -8,4 +8,3 @@ function out = reverse(in, n)
     end
     out = [out in];
 end
-
