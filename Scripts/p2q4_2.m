@@ -13,4 +13,3 @@ function output = posteriors(input)
     ylabel('p(Ci|x)')
     legend('C1', 'C2')
 end
-
