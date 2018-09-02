@@ -45,5 +45,3 @@ function prediction_1 = p3q2(input)
     prediction_0 = prosterior_0 <= 0.5;
     prediction_1 = prosterior_1 > 0.5;
 end
-
-
