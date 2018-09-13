@@ -32,4 +32,3 @@ function [kl_1 kl_2 kl_3] = p3q5()
     %kl_2 = sum(f_1.*(log(f_1./m_2)));
     %kl_3 = sum(f_2.*(log(f_2./m_2)));
 end
-
