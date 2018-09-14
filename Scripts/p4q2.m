@@ -75,4 +75,3 @@ function centroids = p4q2(X,lambda)
     title 'Mean Shift Clustering (e, lambda = 4)'
     legend('cluster 1', 'cluster 2', 'centroids')
 end
-
