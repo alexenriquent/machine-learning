@@ -53,4 +53,3 @@ xlabel('Perplexities')
 ylabel('Iterations')
 zlabel('Costs')
 end
-
