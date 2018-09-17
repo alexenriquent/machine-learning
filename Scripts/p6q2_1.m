@@ -47,4 +47,3 @@ percentErrors = sum(tind ~= yind)/numel(tind)
 %figure, ploterrhist(e)
 %figure, plotconfusion(t,y)
 %figure, plotroc(t,y)
-
