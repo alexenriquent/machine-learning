@@ -8,4 +8,3 @@ function p5q9()
 %     scatter(mappedX(:,1),mappedX(:,2),20,color(1:2000),'o')
     title 'Swiss Roll after t-SNE'
 end
-
