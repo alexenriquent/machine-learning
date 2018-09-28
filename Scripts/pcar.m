@@ -60,3 +60,4 @@ function [mappedX, mapping] = pca(X, no_dims)
     % Store information for out-of-sample extension
     mapping.M = M;
 	mapping.lambda = lambda;
+	
